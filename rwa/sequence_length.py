@@ -49,9 +49,9 @@ class RWANet(nn.Module):
 
 if __name__ == '__main__':
     K = 1000  # thousand
-    train_samples = int(0.5*K)
+    train_samples = int(1*K)
     dev_samples = int(1*K)
-    max_len = 800
+    max_len = 200
     hidden_dim = 100
     max_training_steps = 5000
 
