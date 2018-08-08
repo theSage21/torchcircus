@@ -12,6 +12,7 @@ tensorboardx = "*"
 "torchzoo-0.2" = {editable = true, ref = "a77c7277cc95b42c2a9339dceb35264f9e0c1f67", git = "https://github.com/thesage21/torchzoo.git"}
 requests = "*"
 pandas = "*"
+"2f978a9" = {file = "https://github.com/huggingface/neuralcoref-models/releases/download/en_coref_sm-3.0.0/en_coref_sm-3.0.0.tar.gz"}
 
 [dev-packages]
 
