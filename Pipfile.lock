@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "40a4d5fcf2b69719d6e75faaa364c0c2f4cdde4da880ee3990d0a373eab9d42b"
+            "sha256": "7ff52e021aeb1f03dd299f630b5965b2dd14aebff2f8a30488582dffeb8d77a3"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -195,8 +195,9 @@
             "version": "==0.4.1"
         },
         "torchzoo-0.2": {
-            "git": "https://github.com/theSage21/torchzoo.git",
-            "ref": "09d947a9886a3154ea4bdd29a02624ab4dbd77e2"
+            "editable": true,
+            "git": "https://github.com/thesage21/torchzoo.git",
+            "ref": "a77c7277cc95b42c2a9339dceb35264f9e0c1f67"
         },
         "tqdm": {
             "hashes": [

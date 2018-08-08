@@ -4,12 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-torch = {file = "http://download.pytorch.org/whl/cpu/torch-0.4.1-cp36-cp36m-linux_x86_64.whl"}
 numpy = "*"
+tqdm = "*"
+torch = {file = "http://download.pytorch.org/whl/cpu/torch-0.4.1-cp36-cp36m-linux_x86_64.whl"}
 tensorflow = "*"
 tensorboardx = "*"
-tqdm = "*"
-"torchzoo-0.2" = {ref = "09d947a9886a3154ea4bdd29a02624ab4dbd77e2", git = "https://github.com/theSage21/torchzoo.git"}
+"torchzoo-0.2" = {editable = true, ref = "a77c7277cc95b42c2a9339dceb35264f9e0c1f67", git = "https://github.com/thesage21/torchzoo.git"}
 
 [dev-packages]
 
