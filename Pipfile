@@ -10,6 +10,8 @@ torch = {file = "http://download.pytorch.org/whl/cpu/torch-0.4.1-cp36-cp36m-linu
 tensorflow = "*"
 tensorboardx = "*"
 "torchzoo-0.2" = {editable = true, ref = "a77c7277cc95b42c2a9339dceb35264f9e0c1f67", git = "https://github.com/thesage21/torchzoo.git"}
+requests = "*"
+pandas = "*"
 
 [dev-packages]
 
